@@ -18,6 +18,7 @@ public class Application extends Frame {
 		vue.addActionListener(ctrl);
 		this.setTitle("tutoriel git");
 		this.add(vue);
+		setLocationRelativeTo(null);
 		this.addWindowListener(ctrl);
 		this.pack();
 		this.setVisible(true);
